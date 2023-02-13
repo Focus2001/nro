@@ -1,0 +1,97 @@
+.warting {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: black;
+}
+.warting .warting--12 {
+  width: 12px;
+  height: 12px;
+}
+
+.header {
+  background: linear-gradient(to bottom, #fe5604 0%, #fe5604 30%, #ff5601 100%);
+  border-radius: 10px;
+}
+.header .img--nro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .img--nro .logo {
+  width: 235px;
+  height: 90px;
+}
+.header .menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.header .menu a {
+  width: 25%;
+  color: aliceblue;
+  text-align: center;
+  background-color: #924c31;
+  margin: 3px;
+  font-size: 9pt;
+  border-radius: 3px;
+}
+.header .dowload {
+  margin: 5px;
+  display: flex;
+  background: #ffaf4c;
+  border-radius: 3px;
+}
+.header .dowload .list--dowload {
+  width: 25%;
+  text-align: center;
+  font-size: 9px;
+}
+.header .content {
+  padding-left: 5px;
+  background: #ffaf4c;
+}
+.header .content h2 {
+  font-size: 15px;
+  color: #e73d00;
+}
+.header .content p {
+  padding: 5px;
+  font-size: 9pt;
+}
+.header .content .git {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.header .content .git img {
+  height: 90px;
+}
+.header .content .bonut {
+  margin: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+.header .nav {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.header .nav .title {
+  padding: 5px;
+  background: #ffaf4c;
+}
+.header .nav .title h2 {
+  font-size: 15px;
+  color: #e73d00;
+}
+.header .copyright {
+  margin: 20px;
+  line-height: 7px;
+  text-align: center;
+  font-size: 10px;
+}
+.header .forma {
+  width: 154px;
+} /*# sourceMappingURL=nro.css.map */
