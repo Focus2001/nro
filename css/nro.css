@@ -62,10 +62,11 @@
 }
 .header .content .git {
   margin: auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 5px;
   align-items: center;
   justify-content: center;
-  gap: 8px;
 }
 .header .content .git img {
   width: 90px;
